@@ -16,11 +16,11 @@ public class ColorChanger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            Component<Renderer>().material.color = Color.red
+            GetComponent<Renderer>().material.color = Color.red;
         }
         if (Input.GetKeyDown(KeyCode.G))
         {
-            Component<Renderer>().material.color = Color.green
+            GetComponent<Renderer>().material.color = Color.green;
         }
     }
 }
